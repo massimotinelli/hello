@@ -1,5 +1,3 @@
-
-PRINT       equ  8252
             org  0x5ccb
 ;loop
             ld   a, 2                ; 3E 02
