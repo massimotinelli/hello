@@ -6,8 +6,8 @@
             rst 16
             ;jmp  loop
 
-
+	;NOTA: senza i seguenti non gira
 	;origin for subsequent data
 	org 0xff57 ;65367
-        ;
+        ;defines a single byte with the value 0x00 at the current origin
         defb 00h
